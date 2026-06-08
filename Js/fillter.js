@@ -1,0 +1,2 @@
+const friends = ["Avi","Emon","Gyana","Ponceyon","Pious","suvas","Menson"]
+friends.filter(friend => friend === "Avi" ? console.log("Avi tomar friend list eh ache": console.log('tomar friend list eh nai')) )
