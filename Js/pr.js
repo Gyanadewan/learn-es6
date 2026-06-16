@@ -2,15 +2,15 @@
    const texts = [
       "Hello JavaScript!",
    ]
- const handleTextButton = () => {
+   const handleTextButton = () => {
    const container = document.getElementById("container")
-   const div = document.createElement("div")
-   div.innerHTML = `
+    const h1 = document.createElement("h1")
+   h1.innerHTML = `
        <h1>${texts}</h1>
      
       
    `
-   container.appendChild(div)
+   container.appendChild(h1)
  }
 
  handleTextButton()
