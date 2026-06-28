@@ -20,3 +20,8 @@ const ageCalculator = (oldManAge,youngerManAge) => {
 
 ageCalculator(60)
 
+
+
+ const marks = 50;
+ const result = marks >=30 ? "pass": "fail"
+ console.log(result)
