@@ -5,12 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+     .prent-contain{
+        background-color: rgb(10, 170, 170);
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 200px;
+        padding: 50px;
+     }
+
+     .prent-contain span {
+                color: rgb(12, 12, 223);
+     }
+
+
+     .btn-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+     }
+     .click-btn{
+        background-color: rgb(7, 139, 93);
+        padding:5px 6px;
+        border-radius: 6px;
+        color: white;
+
+     }
+
+
+</style>
 <body>
-    <input id="email" type="email" placeholder="email"> 
-     <input id="pass" type="password" placeholder="password">
-     <br>
-     <br>
-    <button onclick="handleBtn ()">click button</button>
+   <div class="prent-contain">
+     <div class="input-contain">
+      <span>Email:</span><input class="input-email" id="email" type="email" placeholder="email">
+     <br> 
+      <span>Pass  :</span> <input class="input-pass" id="pass" type="password" placeholder="password">
+     </div>
+     <div class="btn-div">
+          <button class="click-btn" onclick="handleBtn ()">click button</button>
+     </div>
+   </div>
     <script src="dom.js"></script>
 </body>
 </html>
