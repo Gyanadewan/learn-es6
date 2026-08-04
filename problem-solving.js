@@ -24,4 +24,6 @@ console.log(describeDeclaration("var"));
 // Can redeclare, can reassign
 
 console.log(describeDeclaration("int"));
-// Invalid
+Invalid
+
+
