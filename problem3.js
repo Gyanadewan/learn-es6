@@ -1,3 +1,4 @@
+
 const getLowestPrice = (prices) =>{
  return Math.min(...prices)
 }
