@@ -7,7 +7,7 @@ let  applyDiscount = (price, discountRate=0)=>{
     return discountedPrice;
  })
  return priceAfterDiscount;
-}
+} 
 
 let productPrice = [500,1000,400,700]
 console.log(applyDiscount(productPrice,10))
